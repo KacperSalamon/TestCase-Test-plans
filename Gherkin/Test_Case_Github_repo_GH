@@ -1,0 +1,16 @@
+Feature - Add new repositourium to Github profile
+  Scenario - As a logged-in user, we want to add a new repository to the profile
+    Given - You need to click tab "Repositories" in the main page of profile
+      Or - Click in top right on your icon 
+        And - Choose "Your repositories"
+    When - Click to "New" button (on left side)
+    Then - Add name of repo
+      And - Choose repo as public
+    Then - Click to bottom button --> "Create repositories"
+    Then - Click to hiperlink "creating a new file"
+    Then - Add name of your file (test_file)
+      And - Add some kind of text, for example "test test test test test"
+      And - Add commit 
+    Then - Click on button "Commit new file"
+    Then - You should can delete your test_file
+    And - Can add any new files
