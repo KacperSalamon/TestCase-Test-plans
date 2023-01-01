@@ -1,0 +1,8 @@
+Feature - Login to application 
+  Scenario - As a not login user, we want to login it
+    Given - You should be on login app website
+    When - You need to add your username [test_user] in login input
+      And - Need to add password [pass12345_78] in password input
+    Then - The application should log you into the home page
+      And - You should be able to use the entire site without restrictions - all possible permissions
+      And - You can log out of app
